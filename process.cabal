@@ -80,6 +80,7 @@ library
         processFlags.h
 
     ghc-options: -Wall
+    cc-options: -Wno-deprecated-declarations
 
     build-depends: base      >= 4.10 && < 4.18,
                    directory >= 1.1 && < 1.4,
